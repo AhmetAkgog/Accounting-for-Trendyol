@@ -1,0 +1,5 @@
+for cell in ws["H"]:
+    if cell.value == "Faturalanan Kargo Tutarı":
+        continue
+    mflist.append(float(cell.value))
+    ws_1.append([ws_1.max_row,float(cell.value)])

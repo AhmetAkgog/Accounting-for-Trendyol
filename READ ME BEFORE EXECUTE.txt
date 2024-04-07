@@ -1,0 +1,12 @@
+Muhasebe_shall_rise
+
+This code is designed for calculating shipping based on the current shipping prices. You can change it when shipping prices change. 
+When you run it a small interface will appear. Select an Excel file downloaded from Trendyol's seller's control panel. It needs the 
+Excel file from the Shipping Phase. When you choose your file simply click run and it will write the results to the AA column in Excel.
+Also, it works only for Sürat and MNG because I worked with those shipping companies.
+
+
+EQUALIZER 
+
+This is a not very efficient code it has O(n^3) Time Complexity because of this it might give blank cells sometimes. You should get your sales Excel from your supplier. My supplier's website uses Ticimax Infrastructure so it might not work with another company. 
+The Excel you get should have shipping codes in it. That's how the code calculates it. We use the same Trendyol Excel File from muhasebe_shall_rise. Thats it.
